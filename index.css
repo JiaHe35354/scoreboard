@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(20, 20, 65);
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-title {
+    margin: 0;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 80px;
+    color: white;
+    font-weight: 900;
+}
+
+.container-p {
+    background-color: black;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 160;
+    color: rgb(236, 77, 77);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-group {
+    display: flex;
+    place-content: center;
+    justify-content: space-evenly;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: rgb(16, 16, 71);
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
